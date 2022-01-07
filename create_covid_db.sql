@@ -6,7 +6,7 @@ CREATE TABLE locations (
 );
 
 CREATE TABLE vaccines (
-    vac_name VARCHAR(50) PRIMARY KEY
+    vac_name VARCHAR(1000) PRIMARY KEY
 );
 
 CREATE TABLE vaccinations_by_manufacturer (
